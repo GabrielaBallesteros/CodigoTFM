@@ -763,7 +763,7 @@ model6.add(Dense(32, activation='relu', kernel_regularizer=l2(0.001)))
 model6.add(Dropout(d3))
 model6.add(Dense(1, activation='sigmoid'))
 
-model6.compile(optimizer=Adam(learning_rate=0.0001), loss='binary_crossentropy', metrics=['accuracy'])
+model6.compile(optimizer=Adam(learning_rate=0.001), loss='binary_crossentropy', metrics=['accuracy'])
 
 # -----------------------------
 # 7. Entrenamiento
